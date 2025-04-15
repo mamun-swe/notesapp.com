@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  notesapp.com:
+    build: ./
+    image: image.notesapp.com
+    container_name: container.notesapp.com
+    ports:
+      - 3000:3000
+    networks:
+      - notesapp-network
+
+networks:
+  notesapp-network:
+    name: notesapp-network
+    driver: bridge
