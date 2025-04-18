@@ -5,7 +5,7 @@ The NotesApp Frontend enables standard CRUD operations: Create, Read, Update, an
 ## Application directory architecture:
 
 - **notesapp.com**
-    - **src** (Main source directory for the frontend application.)
+  - **src** (Main source directory for the frontend application.)
     - **assets** (Contains static files like images, icons.)
     - **components** (Reusable UI components such as buttons, modals, inputs, etc., used across multiple pages)
     - **config** (Stores configuration files like API endpoints, environment settings, and constants.)
