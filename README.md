@@ -36,16 +36,16 @@ Includes configuration files such as .env, .gitignore, tsconfig.json, package.js
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mamun-swe/api.notesapp.com
+git clone https://github.com/mamun-swe/notesapp.com
 ```
 
 ```bash
-cd api.notesapp.com
+cd notesapp.com
 ```
 
 ### Setup Environment Variables
 
-Create a .env file in application root directory and copy APPLICATION_PORT from .env.example and paste it to .env file.
+Create a .env file in the application root directory and copy **VITE_API_ENDPOINT** from .env.example and paste it into .env file.
 
 ### Install Dependencies
 
@@ -62,7 +62,7 @@ npm run build
 ### Run the Application
 
 ```bash
-npm start
+npm run preview
 ```
 
 ## Running with Docker
@@ -84,7 +84,7 @@ From the project's root directory, run:
 ./run.sh
 ```
 
-The application will be accessible at http://localhost:4000/<PORT>.
+After starting the application, open your browser and navigate to http://localhost:3000
 
 ### Stop the Application inside Docker container
 
